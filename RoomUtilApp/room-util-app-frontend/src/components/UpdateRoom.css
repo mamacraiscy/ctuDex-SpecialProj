@@ -1,0 +1,113 @@
+.update-room-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.form-row input, .form-row select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.availability-section {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.time-slot {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.add-time-slot-btn{
+    padding: 0.3rem 1rem;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0.5rem; /* Adds spacing above the button */
+    margin-right: 1rem; /* Adds spacing to the right */
+}
+
+.add-date-btn {
+    padding: 0.3rem 1rem;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0.5rem; /* Adds spacing above the button */
+}
+
+
+.delete-time-slot-btn, .delete-date-btn {
+    padding: 0.3rem 1rem;
+    background-color: #d61b11; /* Red */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0.5rem; /* Adds spacing above the button */
+    margin-right: 1rem; /* Adds spacing to the right */
+}  
+
+.add-time-slot-btn:hover, .add-date-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.delete-time-slot-btn:hover, .delete-date-btn:hover {
+    background-color: #d13f1ac6; /* Darker red on hover */
+}
+
+/* Prevent overlap by ensuring a gap between elements */
+.availability-section > label {
+    margin-bottom: 0.5rem;
+}
+
+.submit-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem; /* Adds space above the submit button */
+}
+
+.submit-btn {
+    padding: 1rem 1.5rem;
+    background-color: #007BFF; /* Blue */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem; /* Space above submit button */
+}
+
+.submit-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.message {
+    color: #ff0000; /* Red for error messages */
+    text-align: center;
+    margin-top: 1rem;
+}

@@ -1,0 +1,98 @@
+/* SearchRoom.css */
+
+.room-search {
+    max-width: 10000px; /* Set a maximum width for the search container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding around the container */
+    background-color: #ffffff; /* Light background for better readability */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.filter-container {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    gap: 10px; /* Space between elements */
+    margin-bottom: 20px; /* Space below the filter container */
+    justify-content: center; /* Center the filter controls */
+}
+
+.dropdown {
+    padding: 10px; /* Padding for dropdown */
+    border: 1px solid #ccc; /* Border for dropdown */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size for dropdown */
+    width: 220px; /* Fixed width for dropdown */
+}
+
+.search-input {
+    padding: 10px; /* Padding for the input field */
+    border: 1px solid #ccc; /* Border for input */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size for input */
+    width: 650px; /* Fixed width for input */
+}
+
+.search-button,
+.clear-button {
+    padding: 5px 10px; /* Reduced padding for a smaller button */
+    border: none; /* Remove border for a cleaner look */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size for buttons */
+    background-color: #045174; /* Primary button color */
+    color: white; /* Text color for buttons */
+    max-height: 45px;
+    margin-top: 8px;
+    max-width: 120px; /* Set a maximum width to control button size */
+    flex: 0 0 auto; /* Prevent flex growth */
+    cursor: pointer; /* Indicates the button is clickable */
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.search-button:hover,
+.clear-button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+.message {
+    text-align: center; /* Center the message */
+    color: red; /* Red color for error messages */
+    margin: 10px 0; /* Space around the message */
+}
+
+.results-container {
+    margin-top: 20px; /* Space above results */
+}
+
+.room-table {
+    width: 100%; /* Full width for the table */
+    border-collapse: collapse; /* Collapse borders */
+}
+
+.room-table th,
+.room-table td {
+    padding: 12px; /* Padding for cells */
+    border: 1px solid #ccc; /* Border for cells */
+    text-align: center; /* Align text to the left */
+}
+
+.room-table th {
+    background-color: #1c3f63; /* Header background color */
+    color: white; /* Header text color */
+}
+
+.room-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row color */
+}
+
+.room-table tr:hover {
+    background-color: #e6f7ff; /* Highlight row on hover */
+}
+
+/* Additional styling for date picker */
+.date-picker {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 220px; /* Fixed width for date picker */
+}
